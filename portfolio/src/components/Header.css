@@ -1,0 +1,10 @@
+.Header{
+    display: grid;
+    grid-template-columns: 100% ;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue;
+    text-align: center;
+    margin: 0 auto;
+    width:auto;
+}

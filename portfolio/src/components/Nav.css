@@ -3,7 +3,7 @@
     font-size: 1.5rem;
     box-sizing: border-box;
     margin: 0;
-    padding: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 
@@ -23,7 +23,7 @@ li{
 }
 
 li:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: 1s ease-in-out;
     
 }
@@ -39,19 +39,29 @@ li>img:hover{
 a{
     color: black;
     font-weight: bolder;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     text-decoration: none;
     border-radius: 20px;
+    display: inline;
+    box-sizing: border-box;
 }
 
+a:visited{
+    color: rgb(46, 45, 45);
+}
+
+
 a:hover{
-    border-bottom: 2px solid black;
-    border-right: 2px solid black;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    background: rgb(32, 32, 205);
-    transform: scale(1.1);
-    transition: 1.5s ease-in-out;
+    transform: scale(1.05);
+    background: rgba(0, 255, 255, 0.547);
+    transition: 0.5s ease-in-out;
     text-decoration: none;
+}
+a:active{
+    background: darkblue;
+    color: whitesmoke;
+    transition: 0s;
 }
 
 @keyframes rotateY {

@@ -63,7 +63,61 @@ textarea{
 }
 
 button{
-    background: linear-gradient(darkgrey, lightgrey);
     margin: 0 auto;
     padding: 0.5rem 2rem 0.5rem 2rem;
+    border-radius: 20px;
+}
+
+button.Submit{
+    background-color: rgb(3, 138, 205);
+    border: solid transparent 1px;
+    font-weight: bolder;
+
+}
+
+button.Submit:enabled{
+    border: 2px solid rgb(12, 84, 126);
+}
+
+button.Submit:enabled:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+
+button.Submit:enabled:active{
+    background: darkblue;
+    color: whitesmoke;
+    transition: 0s;
+}
+
+button.Submit:disabled{
+    background: linear-gradient(grey, whitesmoke);
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.463);
+}
+
+button.Reset{
+    background: lightgreen;
+    border: 2px solid rgb(2, 152, 2);
+    font-weight: bolder;
+}
+
+button.Reset:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+
+button.Reset:active{
+    color: whitesmoke;
+    background: darkgreen;
+    transition: 0s;
+}
+
+small{
+    color: rgb(131, 131, 3);
+    font-weight: bolder;
+    padding: 0.5rem;
+    text-align: left;
+
 }

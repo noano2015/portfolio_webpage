@@ -2,10 +2,11 @@
   padding: 0;
   margin: 0 auto;
   width:auto;
-  background: linear-gradient(darkgrey, blue);
+  background: linear-gradient(rgba(60, 239, 249, 0.456), blue);
 
 }
 
 html{
   scroll-behavior: smooth;
+  overscroll-behavior:none;
 }

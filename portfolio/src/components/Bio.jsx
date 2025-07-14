@@ -4,24 +4,24 @@ import profile_pic from '../assets/images/profile_pic.jpg';
 function Bio(){
 
     return(
-        <div className='Bio'>
+        <div className='Bio' id='About Me'>
             <h2>About Me</h2>
                 <div className='container'>
                     <article className='Information'>
 
-                        <section>
+                        <section className='BioField'>
                             <h3>Name: </h3>
                             <p>Pedro Vicente</p>
                         </section>
-                        <section>
+                        <section className='BioField'>
                             <h3>Telephone Number: </h3>
                             <p>*********</p>
                         </section>
-                        <section>
+                        <section className='BioField'>
                             <h3>E-mail: </h3>
                             <p>******@email.com</p>
                         </section>
-                        <section>
+                        <section className='BioField'>
                             <p>Hey, I'm Pedro Vicente
                             <br/>
                             <br/>

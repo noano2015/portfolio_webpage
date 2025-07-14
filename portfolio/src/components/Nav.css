@@ -1,0 +1,64 @@
+.General{
+    background: rgba(0, 255, 255, 0.203);
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1rem;
+}
+
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    list-style: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+li:hover{
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+    
+}
+
+li>img:hover{
+    animation: rotateY 3s linear infinite;
+    object-fit: cover;
+
+    transform-style: preserve-3d;
+    backface-visibility: visible; 
+}
+
+a{
+    color: black;
+    font-weight: bolder;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+a:hover{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background: rgb(32, 32, 205);
+    transform: scale(1.1);
+    transition: 1.5s ease-in-out;
+    text-decoration: none;
+}
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

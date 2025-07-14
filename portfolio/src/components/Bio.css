@@ -3,7 +3,7 @@
     border-radius: 20px;
     margin: 1rem 3rem 1rem 3rem;
     display: grid;
-    background: linear-gradient(#3a4f7a, #6b92e1);
+    background: linear-gradient(rgb(58, 79, 122), rgba(107, 146, 225, 0.674));
     align-items: center;
 }
 
@@ -11,7 +11,7 @@
     margin: 1rem;
 }
 
-section{
+.BioField{
     margin: 1rem;
     padding: 0.5rem 3rem 0.5rem 3rem;
     border-bottom: 2px black solid;

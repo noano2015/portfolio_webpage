@@ -1,0 +1,70 @@
+.Projects{
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 1rem 3rem 1rem 3rem;
+    padding: 1rem;
+    display: grid;
+    background: linear-gradient(rgb(58, 79, 122), rgba(107, 146, 225, 0.674));
+}
+
+.Projects img{
+    display: inline-block;
+}
+
+#Java{
+    background-image: url('../assets/images/minesweeper.png');
+}
+
+#Cpp{
+    background-image: url('../assets/images/graph.png');
+}
+
+#PyTorch{
+    background-image: url('../assets/images/crack_detection.png');
+}
+
+#C{
+    background-image: url('../assets/images/kvs_storage.png');
+}
+
+.ProjectCard{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.377);
+    font-weight: bolder;
+    background-size: cover;
+}
+
+.ProjectsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.ProjectCard img:hover{
+    animation: rotateY 3s linear infinite;
+    object-fit: cover;
+
+    transform-style: preserve-3d;
+    backface-visibility: visible; 
+}
+.ProjectCard:hover{
+    transform: scale(1.07);
+    transition: 1s;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+@keyframes rotateY {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}

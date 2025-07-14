@@ -2,8 +2,8 @@
   padding: 0;
   margin: 0 auto;
   width:auto;
-  background-image: url('./assets/images/background_image.jpg');
-  background-size: cover;
+  background: linear-gradient(darkgrey, blue);
+
 }
 
 html{
